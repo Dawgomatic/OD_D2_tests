@@ -15,5 +15,9 @@ def test():
   
   #DensePose
   os.system('python apply_net.py show configs/densepose_rcnn_R_50_FPN_s1x.yaml https://dl.fbaipublicfiles.com/densepose/densepose_rcnn_R_50_FPN_s1x/165712039/model_final_162be9.pkl C:/full/path/to/my_file.jpg dp_contour,bbox -v')
+  
+  #DensePose deeplabv3
+   #DensePose
+  os.system('python apply_net.py show configs/densepose_rcnn_R_101_FPN_DL_s1x.yam https://dl.fbaipublicfiles.com/densepose/densepose_rcnn_R_101_FPN_DL_s1x/165712116/model_final_844d15.pkl C:/full/path/to/my_file.jpg dp_contour,bbox -v')
             
 test()
